@@ -8,8 +8,8 @@ int main() {
     srand(time(NULL));
 
     numero_secreto = rand() % 100 + 1;
-        printf("-- Exercicio 01--\n");
-        printf("Adivinhe o número entre 1 e 100:\n");
+    printf("- - - - - Exercicio 01 - - - - -\n");
+    printf("Adivinhe o número entre 1 e 100:\n");
 
     do {
         printf("Qual o seu Palpite: ");
